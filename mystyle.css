@@ -1,0 +1,148 @@
+body {
+  display: flex;
+  justify-content: center;
+  background: repeating-linear-gradient(
+  to right,
+  #00d6e6,
+  #00d6e6 10px,
+  #00becc 10px,
+  #00becc 20px
+  );
+}
+
+@font-face {
+  font-family: Passion_One;
+  src: url(Passion_One/PassionOne-Regular.ttf)
+}
+
+@font-face {
+  font-family: Spartan;
+  src: url(Spartan/static/Spartan-Regular.ttf)
+}
+
+@font-face {
+  font-family: Poiret_One;
+  src: url(Poiret_One/PoiretOne-Regular.ttf)
+}
+#blah {
+  overflow: scroll;
+}
+
+#blah figure {
+  position: relative;
+  width: 500%;
+  margin: 0;
+  left: 0;
+  animation: 20s slider infinite;
+}
+
+#blah figure img {
+  width: 20%;
+  float: left;
+}
+
+@keyframes blah {
+  0% {
+    left: 0;
+  }
+  20% {
+    left: 0;
+  }
+  25% {
+    left: -100;
+  }
+  45% {
+    left: -100;
+  }
+  50% {
+    left: -200;
+  }
+  70% {
+    left: -200;
+  }
+  75% {
+    left: -300;
+  }
+  95% {
+    left: -300%;
+  }
+  100% {
+    left: -400;
+  }
+}
+
+
+#zodiac {
+  position: relative;
+  top: 150px;
+  height: 400px;
+  width: 500px;
+  font-family: Spartan;
+}
+
+#libra {
+  background: lightyellow;
+  padding: 20px;
+  margin-bottom: 15px;
+  border-radius: 25px;
+  border: 2px solid black;
+}
+
+#gemini {
+  background: lightyellow;
+  padding: 10px;
+  margin-bottom: 15px;
+}
+
+#virgo {
+  background: lightyellow;
+  padding: 10px;
+  margin-bottom: 15px;
+}
+
+#scorpio {
+  background: lightyellow;
+  padding: 10px;
+  margin-bottom: 15px;
+}
+
+#pisces {
+  background: lightyellow;
+  padding: 10px;
+  margin-bottom: 15px;
+}
+
+#goodjob {
+  display: flex;
+  justify-content: center;
+}
+
+#goodjob img {
+  width: 300px;
+  height: 350px;
+}
+
+ul {
+  position: relative;
+  margin-bottom: 15px;
+  list-style-type: none;
+  padding: 0px;
+  display: flex;
+  justify-content: center;
+}
+
+h1 {
+  font-family: Passion_One;
+  background: lightyellow;
+}
+
+a {
+  font-family: Poiret_One;
+  text-decoration: none;
+  background: lightblue;
+  padding: 12px;
+}
+
+a:hover {
+  background-color: lightyellow;
+}
