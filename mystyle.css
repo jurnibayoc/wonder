@@ -24,24 +24,24 @@ body {
   font-family: Poiret_One;
   src: url(Poiret_One/PoiretOne-Regular.ttf)
 }
-#blah {
-  overflow: scroll;
+#slider {
+  overflow: hidden;
 }
 
-#blah figure {
+#slider figure {
   position: relative;
   width: 500%;
   margin: 0;
   left: 0;
-  animation: 20s slider infinite;
+  animation: 30s slider infinite;
 }
 
-#blah figure img {
+#slider figure img {
   width: 20%;
   float: left;
 }
 
-@keyframes blah {
+@keyframes slider {
   0% {
     left: 0;
   }
@@ -92,24 +92,24 @@ body {
   background: lightyellow;
   padding: 10px;
   margin-bottom: 15px;
+  border-radius: 25px;
+  border: 2px solid black;
 }
 
 #virgo {
   background: lightyellow;
   padding: 10px;
   margin-bottom: 15px;
+  border-radius: 25px;
+  border: 2px solid black;
 }
 
 #scorpio {
   background: lightyellow;
   padding: 10px;
   margin-bottom: 15px;
-}
-
-#pisces {
-  background: lightyellow;
-  padding: 10px;
-  margin-bottom: 15px;
+  border-radius: 25px;
+  border: 2px solid black;
 }
 
 #goodjob {
